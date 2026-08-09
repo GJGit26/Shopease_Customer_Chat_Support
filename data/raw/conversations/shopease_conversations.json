@@ -1,0 +1,902 @@
+[
+  {
+    "query": "मेरा ऑर्डर कब तक आएगा? डिलीवरी की अनुमानित तारीख क्या है?",
+    "response": "कृपया अपना ऑर्डर आईडी बताएं ताकि हम आपके ऑर्डर की स्थिति जांच सकें और आपको अनुमानित डिलीवरी की तारीख बता सकें।",
+    "intent": "order_status",
+    "language": "hindi"
+  },
+  {
+    "query": "मैंने 5 दिन पहले ऑर्डर #SHP87654321 दिया था। अभी तक नहीं मिला।",
+    "response": "आपके ऑर्डर #SHP87654321 की स्थिति की जाँच की जा रही है। यह जल्द ही डिलीवरी के लिए निकलेगा और आपको ट्रैकिंग अपडेट एसएमएस द्वारा प्राप्त होगा।",
+    "intent": "order_status",
+    "language": "hindi"
+  },
+  {
+    "query": "मेरे पार्सल की वर्तमान स्थिति क्या है? क्या यह रास्ते में है?",
+    "response": "अपने पार्सल की सटीक स्थिति जानने के लिए, कृपया अपना ऑर्डर आईडी साझा करें। हम तुरंत आपको विस्तृत जानकारी प्रदान करेंगे।",
+    "intent": "order_status",
+    "language": "hindi"
+  },
+  {
+    "query": "मेरा नया फ़ोन कब तक डिलीवर होगा? मैं इंतज़ार कर रहा हूँ।",
+    "response": "हम समझते हैं कि आप अपने नए फ़ोन का इंतज़ार कर रहे हैं! कृपया हमें अपना ऑर्डर आईडी दें ताकि हम आपको सटीक डिलीवरी अपडेट दे सकें।",
+    "intent": "order_status",
+    "language": "hindi"
+  },
+  {
+    "query": "What is the current status of my order? I haven't received any updates.",
+    "response": "Please provide your order ID, and I will check the most recent status for you.",
+    "intent": "order_status",
+    "language": "english"
+  },
+  {
+    "query": "Can you tell me when my order #SHP123456 will be delivered?",
+    "response": "Your order #SHP123456 is currently out for delivery and is expected to reach you by the end of day today. You can track it live via the link sent to your registered mobile number.",
+    "intent": "order_status",
+    "language": "english"
+  },
+  {
+    "query": "My order hasn't arrived yet, it's been almost a week. This is order ID SHP987654.",
+    "response": "We apologize for the delay with your order #SHP987654. Let me investigate this immediately and provide you with an updated delivery timeline.",
+    "intent": "order_status",
+    "language": "english"
+  },
+  {
+    "query": "I'm checking on the delivery status for my recent purchase.",
+    "response": "Absolutely! Please share your order ID so I can look up the details for you.",
+    "intent": "order_status",
+    "language": "english"
+  },
+  {
+    "query": "Is my package still on track for delivery tomorrow?",
+    "response": "To confirm the delivery schedule for your package, kindly provide your order ID. We'll verify it for you right away.",
+    "intent": "order_status",
+    "language": "english"
+  },
+  {
+    "query": "Mera order tracking info nahi dikh raha hai app pe, kya hua?",
+    "response": "Aapki query ke liye dhanyawad! Apne order ka live status dekhne ke liye, कृपया apna order ID confirm karein.",
+    "intent": "order_status",
+    "language": "hinglish"
+  },
+  {
+    "query": "Order #SHP00123 ka status kya hai? Kab tak milega? Bohot wait kar raha hoon.",
+    "response": "Aapka order #SHP00123 dispatch ho chuka hai aur expected delivery date 20th May hai. Aapko SMS par tracking link bhi bheja gaya hai.",
+    "intent": "order_status",
+    "language": "hinglish"
+  },
+  {
+    "query": "Bhai, mera parcel kaha hai? Bohat late ho raha hai. Order ID SHP555666.",
+    "response": "Hamari team aapke order #SHP555666 ki delivery mein hui deri ke liye khed vyakt karti hai. Hum iski jaanch kar rahe hain aur jald hi aapko update denge.",
+    "intent": "order_status",
+    "language": "hinglish"
+  },
+  {
+    "query": "Maine 3 din pehle order kiya tha, abhi tak dispatch nahi hua. Kya problem hai?",
+    "response": "Apne order ki sthiti jaanne ke liye, कृपया apna order ID provide karein. Hum check karke aapko update karte hain ki dispatch kab tak hoga.",
+    "intent": "order_status",
+    "language": "hinglish"
+  },
+  {
+    "query": "Apne order ka live status kaise check karoon? Mujhe koi update nahi mila.",
+    "response": "Apne order ka live status check karne ke liye, aapko apna order ID batana hoga. Hum aapko turant tracking link ya status provide karenge.",
+    "intent": "order_status",
+    "language": "hinglish"
+  },
+  {
+    "query": "Order SHP778899 ki delivery date confirm karni hai, kya yeh time par deliver hoga?",
+    "response": "Yes, aapka order #SHP778899 expected delivery date 22nd May par hi deliver hoga. Aapko delivery se pehle ek confirmation call bhi aayegi.",
+    "intent": "order_status",
+    "language": "hinglish"
+  },
+  {
+    "query": "मेरा ऑर्डर रद्द हो गया है, मुझे पैसे वापस कब मिलेंगे?",
+    "response": "आपके ऑर्डर रद्द होने के लिए हमें खेद है। आपकी वापसी की प्रक्रिया शुरू कर दी गई है और आपको 5-7 व्यावसायिक दिनों के भीतर राशि प्राप्त हो जाएगी।",
+    "intent": "refund_request",
+    "language": "hindi"
+  },
+  {
+    "query": "I want a refund for item #SHP7890. It's defective.",
+    "response": "We apologize for the defective item. Please provide your order ID and a picture/video of the defect, and we will initiate your refund process immediately.",
+    "intent": "refund_request",
+    "language": "english"
+  },
+  {
+    "query": "Maine ek T-shirt return kiya tha, 7 din ho gaye abhi tak refund nahi aaya. Kya hua?",
+    "response": "Humein refund mein deri ke liye khed hai. Kripya apna order ID share karein, hum aapke refund ka status turant check kar ke aapko update denge.",
+    "intent": "refund_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "Mujhe mera order cancel karna hai aur full refund chahiye.",
+    "response": "Agar aapka order abhi tak dispatch nahi hua hai, toh hum use cancel karke aapka full refund process kar sakte hain. Kripya apna order ID dein.",
+    "intent": "refund_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "मैंने एक गलत उत्पाद प्राप्त किया है। मुझे रिफंड चाहिए।",
+    "response": "गलत उत्पाद प्राप्त करने के लिए हमें खेद है। कृपया उत्पाद की एक तस्वीर और अपने ऑर्डर आईडी के साथ हमें एक ईमेल भेजें, हम आपकी वापसी प्रक्रिया तुरंत शुरू करेंगे।",
+    "intent": "refund_request",
+    "language": "hindi"
+  },
+  {
+    "query": "My order was cancelled by ShopEase, when will I get my money back?",
+    "response": "We regret the inconvenience caused by the cancellation. Your refund has been processed and should reflect in your account within 5-7 business days.",
+    "intent": "refund_request",
+    "language": "english"
+  },
+  {
+    "query": "Ek product galat deliver ho gaya hai. Mujhe iska refund chahiye.",
+    "response": "Galat product deliver hone ke liye hum khed karte hain. Kripya product ki tasveer aur apna order ID humein bhej dein, hum aapke refund ki prakriya shuru karenge.",
+    "intent": "refund_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "Mera refund process kab tak complete hoga? Order ID: SHP12345.",
+    "response": "Aapka refund process ho chuka hai, aur 5-7 business days mein aapke account mein reflect ho jayega. Kisi bhi further query ke liye aap humse contact kar sakte hain.",
+    "intent": "refund_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "मेरी वापसी प्रक्रिया में देरी क्यों हो रही है?",
+    "response": "हम आपकी वापसी में देरी के लिए क्षमा चाहते हैं। कृपया अपना ऑर्डर आईडी प्रदान करें ताकि हम स्थिति की जांच कर सकें और आपको अपडेट दे सकें।",
+    "intent": "refund_request",
+    "language": "hindi"
+  },
+  {
+    "query": "I returned a product last week. Still no refund. What's the status?",
+    "response": "We apologize for the delay. Please share your order ID so we can check the status of your return and provide you with an update on your refund.",
+    "intent": "refund_request",
+    "language": "english"
+  },
+  {
+    "query": "Cash on delivery order tha, return kar diya, ab refund kaise milega?",
+    "response": "COD orders ke liye, refund aapke bank account mein transfer kiya jayega. Kripya apni bank details (Account No., IFSC Code, Account Holder Name) share karein taaki hum refund process kar saken.",
+    "intent": "refund_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "Item damage aaya hai, refund apply karna hai.",
+    "response": "Damage item milne ke liye humein khed hai. Kripya damage item ki clear pictures aur apna order ID provide karein, hum aapke refund request ko process karenge.",
+    "intent": "refund_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "मैंने एक ड्रेस वापस कर दी थी, लेकिन मुझे अभी तक रिफंड नहीं मिला है। यह कब तक आएगा?",
+    "response": "आपके रिफंड में देरी के लिए हम क्षमा चाहते हैं। कृपया अपना ऑर्डर आईडी साझा करें ताकि हम आपके रिफंड की स्थिति की जांच कर सकें और आपको सटीक जानकारी प्रदान कर सकें।",
+    "intent": "refund_request",
+    "language": "hindi"
+  },
+  {
+    "query": "Can I get a full refund for my recent purchase? I changed my mind.",
+    "response": "Yes, you can request a full refund if the item is eligible for return. Please provide your order ID and we will guide you through the return and refund process.",
+    "intent": "refund_request",
+    "language": "english"
+  },
+  {
+    "query": "Maine 2 items order kiye the, ek wapas kar diya, uska refund kab milega?",
+    "response": "Aapke return ki confirmation milne ke baad, aapka partial refund 5-7 business days mein aapke original payment method par process ho jayega. Aap apna order ID share kar sakte hain for status check.",
+    "intent": "refund_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "Mera order #123456789 cancel karna hai.",
+    "response": "Ji, aapka order #123456789 cancel karne ki request submit kar di gayi hai. Aapko confirmation email jaldi hi mil jayega.",
+    "intent": "cancellation",
+    "language": "hinglish"
+  },
+  {
+    "query": "I want to cancel my recent purchase, order ID is SHOPEASE98765. It hasn't shipped yet.",
+    "response": "Understood. Your cancellation request for order SHOPEASE98765 has been processed successfully. You will receive a refund confirmation within 24 hours, and the amount will reflect in your account within 5-7 business days.",
+    "intent": "cancellation",
+    "language": "english"
+  },
+  {
+    "query": "मुझे अपना ऑर्डर 456789123 रद्द करवाना है। क्या यह संभव है?",
+    "response": "जी हाँ, बिल्कुल। आपका ऑर्डर 456789123 सफलतापूर्वक रद्द कर दिया गया है। रिफंड की प्रक्रिया जल्द ही शुरू हो जाएगी और आपको इसकी सूचना ईमेल द्वारा मिल जाएगी।",
+    "intent": "cancellation",
+    "language": "hindi"
+  },
+  {
+    "query": "Please cancel order number 555666777. I placed it by mistake.",
+    "response": "Koi baat nahi, hum aapki help kar dete hain. Order 555666777 cancel kar diya gaya hai. Refund details aapko SMS aur email par mil jayengi.",
+    "intent": "cancellation",
+    "language": "hinglish"
+  },
+  {
+    "query": "Can I cancel a specific item from my order #789012345, not the whole order?",
+    "response": "Yes, you can. Please specify which item you'd like to cancel from order #789012345, and I'll proceed with that for you.",
+    "intent": "cancellation",
+    "language": "english"
+  },
+  {
+    "query": "मैंने एक घड़ी का ऑर्डर दिया था, लेकिन अब मुझे वह नहीं चाहिए। कृपया उसे रद्द कर दें। मेरा ऑर्डर आईडी 112233445 है।",
+    "response": "ठीक है, आपका ऑर्डर 112233445 (घड़ी) रद्द करने की प्रक्रिया शुरू कर दी गई है। आपको जल्द ही ईमेल पर इसकी पुष्टि मिल जाएगी।",
+    "intent": "cancellation",
+    "language": "hindi"
+  },
+  {
+    "query": "My order for the blue dress (ID: SHOPDRESS001) is taking too long to deliver. I want to cancel it.",
+    "response": "Apologies for the delay. Aapka order SHOPDRESS001 cancel kar diya gaya hai. Refund 3-5 working days mein aapke source account mein credit ho jayega.",
+    "intent": "cancellation",
+    "language": "hinglish"
+  },
+  {
+    "query": "How do I cancel my ShopEase Plus subscription? I don't need it anymore.",
+    "response": "To cancel your ShopEase Plus subscription, please go to 'My Account' > 'Subscriptions' and click on 'Manage Subscription'. You'll find the cancellation option there. If you face any issues, please let me know.",
+    "intent": "cancellation",
+    "language": "english"
+  },
+  {
+    "query": "Urgent! Galti se 2 quantity order ho gayi hain. Ek cancel kardo order ID 998877665.",
+    "response": "Don't worry, hum ek quantity cancel kar dete hain. Aapki request submit ho gayi hai. Ek confirmation email aapko jaldi hi milega.",
+    "intent": "cancellation",
+    "language": "hinglish"
+  },
+  {
+    "query": "मैंने अभी-अभी एक किताब का ऑर्डर दिया है जिसका आईडी 777888999 है, लेकिन अब मुझे वह नहीं चाहिए। क्या यह रद्द हो सकता है?",
+    "response": "जी हाँ, आपका ऑर्डर 777888999 (किताब) अभी शिप नहीं हुआ है, इसलिए इसे रद्द किया जा सकता है। हमने आपकी रद्द करने की रिक्वेस्ट स्वीकार कर ली है।",
+    "intent": "cancellation",
+    "language": "hindi"
+  },
+  {
+    "query": "My order #100100100 just got placed. I need to cancel it right away, before it ships.",
+    "response": "No problem, I'll help you with that. Your order #100100100 has been cancelled successfully as it was placed recently. You'll receive a refund confirmation shortly.",
+    "intent": "cancellation",
+    "language": "english"
+  },
+  {
+    "query": "I want to cancel my ShopEase Gold membership. How can I do that?",
+    "response": "Aap apni ShopEase Gold membership 'My Account' section mein 'Manage Membership' option se cancel kar sakte hain. Agar help chahiye, to bataiye.",
+    "intent": "cancellation",
+    "language": "hinglish"
+  },
+  {
+    "query": "मेरे ऑर्डर 234567890 की डिलीवरी बहुत देर हो गई है। अब मुझे यह नहीं चाहिए। इसे रद्द कर दें।",
+    "response": "हमें हुई असुविधा के लिए खेद है। आपका ऑर्डर 234567890 रद्द कर दिया गया है। रिफंड 5-7 कार्य दिवसों के भीतर आपके मूल भुगतान विधि में वापस कर दिया जाएगा।",
+    "intent": "cancellation",
+    "language": "hindi"
+  },
+  {
+    "query": "Cancel my pending order for the laptop, order ID LAPTOP789. The price dropped elsewhere.",
+    "response": "Sure, LAPTOP789 order cancel kar diya gaya hai. Refund process ho jayega aur aapko iski update mil jayegi.",
+    "intent": "cancellation",
+    "language": "hinglish"
+  },
+  {
+    "query": "मुझे अपना पूरा ऑर्डर 111222333 रद्द करना है।",
+    "response": "ठीक है, आपका ऑर्डर 111222333 पूरी तरह से रद्द कर दिया गया है। रिफंड 2-3 व्यावसायिक दिनों में आपके खाते में दिखाई देगा।",
+    "intent": "cancellation",
+    "language": "hindi"
+  },
+  {
+    "query": "Payment failed but money deducted. Check my account.",
+    "response": "We understand your concern. Please share your Order ID or Transaction ID so we can investigate this deduction and assist you with the refund process.",
+    "intent": "payment_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "My payment for order #12345 was declined, but I see a charge on my bank statement. This is urgent!",
+    "response": "We apologize for the inconvenience. This is a common issue where the bank holds the amount temporarily. If the order status isn't updated within 2-3 hours, the amount is usually reversed by your bank within 5-7 business days. We recommend checking your bank statement after this period. If it's still not reversed, please provide a screenshot of the debit for further assistance.",
+    "intent": "payment_issue",
+    "language": "english"
+  },
+  {
+    "query": "मेरा भुगतान असफल हो गया, कृपया सहायता करें।",
+    "response": "नमस्ते! हमें आपके भुगतान में आ रही समस्या के लिए खेद है। कृपया हमें अपने ऑर्डर आईडी या ट्रांजेक्शन आईडी बताएं ताकि हम इसकी जांच कर सकें और आपको उचित समाधान प्रदान कर सकें।",
+    "intent": "payment_issue",
+    "language": "hindi"
+  },
+  {
+    "query": "COD option nahi aa raha hai. Har baar online payment hi dikha raha hai.",
+    "response": "कुछ पिन कोड्स या हाई-वैल्यू ऑर्डर्स पर COD उपलब्ध नहीं होता। आप अपने पिन कोड और ऑर्डर वैल्यू के साथ हमें बताएं, हम चेक करके आपको सूचित करेंगे।",
+    "intent": "payment_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "I'm trying to pay with my credit card, but it keeps showing an error: 'Transaction cannot be processed'. What should I do?",
+    "response": "We apologize for the trouble. This error can occur due to various reasons. Please try using a different payment method or check your card details for any errors. You can also try clearing your browser cache or using a different browser/device. If the issue persists, please let us know the exact error message.",
+    "intent": "payment_issue",
+    "language": "english"
+  },
+  {
+    "query": "Order cancel kiya tha, refund kab tak milega? Transaction ID XXXXXX.",
+    "response": "आपका ऑर्डर कैंसिल होने पर, रिफंड प्रोसेस कर दिया गया है। आमतौर पर, रिफंड आपके मूल भुगतान स्रोत में 5-7 व्यावसायिक दिनों के भीतर क्रेडिट हो जाता है। कृपया तब तक प्रतीक्षा करें। आप अपने बैंक स्टेटमेंट में भी जांच कर सकते हैं।",
+    "intent": "payment_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "मुझे अपने पिछले आदेश का भुगतान नहीं दिख रहा है।",
+    "response": "कृपया हमें अपना ऑर्डर आईडी या वह ईमेल आईडी बताएं जिससे आपने खरीदारी की थी। हम आपके भुगतान स्थिति की जांच करके आपको जानकारी प्रदान करेंगे।",
+    "intent": "payment_issue",
+    "language": "hindi"
+  },
+  {
+    "query": "EMI option select kiya tha, par full amount cut ho gaya. Ye kaise hua?",
+    "response": "हमें हुई असुविधा के लिए खेद है। कभी-कभी बैंक की तरफ से प्रोसेसिंग में देरी के कारण ऐसा दिख सकता है। कृपया हमें अपनी ऑर्डर आईडी और बैंक का नाम बताएं। हम इसे तुरंत जांच करवाएंगे। निश्चिंत रहें, यदि EMI का चुनाव हुआ है तो अतिरिक्त राशि वापस कर दी जाएगी या EMI में एडजस्ट हो जाएगी।",
+    "intent": "payment_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "I made a duplicate payment by mistake for order #67890. How can I get one refunded?",
+    "response": "Thank you for bringing this to our attention. We understand you made a duplicate payment. Please provide both transaction IDs or proof of payment for both transactions. Once verified, we will initiate the refund for the duplicate payment, which typically takes 5-7 business days to reflect in your original payment source.",
+    "intent": "payment_issue",
+    "language": "english"
+  },
+  {
+    "query": "Wallet balance use nahi ho raha hai payment ke liye, kya problem hai?",
+    "response": "हमें खेद है कि आपको यह समस्या आ रही है। कृपया सुनिश्चित करें कि आपका वॉलेट बैलेंस पर्याप्त है और आप उन प्रोडक्ट्स के लिए भुगतान कर रहे हैं जिन पर वॉलेट का उपयोग मान्य है। कुछ ऑफर्स या प्रोडक्ट्स पर वॉलेट बैलेंस लागू नहीं होता। आप हमें ऑर्डर की जानकारी दें, हम चेक कर लेंगे।",
+    "intent": "payment_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "मेरे डेबिट कार्ड से भुगतान करते समय समस्या आ रही है।",
+    "response": "नमस्ते! हमें आपके डेबिट कार्ड से भुगतान में आ रही समस्या के लिए खेद है। क्या आपको कोई विशेष त्रुटि संदेश मिल रहा है? कृपया अपने कार्ड के विवरण (नंबर, समाप्ति तिथि, CVV) को दोबारा जांचें और इंटरनेट कनेक्शन स्थिर है, यह सुनिश्चित करें। आप एक बार फिर से कोशिश कर सकते हैं या किसी अन्य भुगतान विधि का उपयोग करने का प्रयास कर सकते हैं।",
+    "intent": "payment_issue",
+    "language": "hindi"
+  },
+  {
+    "query": "My payment link for a pending order expired. Can you resend it or tell me how to pay?",
+    "response": "Certainly! We can help you with that. Please provide your Order ID, and we will generate a new payment link for you immediately. Alternatively, you can log in to your ShopEase account, go to 'My Orders', and you might find an option to retry payment for your pending order there.",
+    "intent": "payment_issue",
+    "language": "english"
+  },
+  {
+    "query": "Why is my payment getting cancelled repeatedly for this product? Order ID P123. I really want this item.",
+    "response": "We understand your frustration and apologize for the repeated payment cancellations. This could be due to various reasons like bank server issues, card limits, or security checks. Please try clearing your browser cache, using a different payment method, or contacting your bank to ensure there are no restrictions on your card. We're here to help if the issue persists.",
+    "intent": "payment_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "मुझे अपने रद्द किए गए आदेश का रिफंड कब मिलेगा?",
+    "response": "नमस्ते! आपके रद्द किए गए आदेश का रिफंड प्रक्रिया में है। आमतौर पर, रिफंड आपके मूल भुगतान स्रोत में 5-7 व्यावसायिक दिनों के भीतर क्रेडिट हो जाता है। कृपया तब तक प्रतीक्षा करें और अपने बैंक स्टेटमेंट की जांच करें। यदि इस अवधि के बाद भी आपको रिफंड प्राप्त नहीं होता है, तो हमें बताएं।",
+    "intent": "payment_issue",
+    "language": "hindi"
+  },
+  {
+    "query": "Net banking se payment nahi ho pa raha hai, error aa raha hai 'Bank server down'.",
+    "response": "हमें हुई असुविधा के लिए खेद है। 'Bank server down' का अर्थ है कि बैंक की तरफ से तकनीकी समस्या है। आप कुछ समय बाद दोबारा प्रयास कर सकते हैं या किसी अन्य नेट बैंकिंग विकल्प या पेमेंट मेथड का उपयोग कर सकते हैं। हम आशा करते हैं कि यह समस्या जल्द ही हल हो जाएगी।",
+    "intent": "payment_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "मेरा ऑर्डर #123456 कब तक मिलेगा? 3 दिन से डिलीवरी लेट है।",
+    "response": "आपके ऑर्डर #123456 में देरी के लिए हमें खेद है। हम तुरंत शिपिंग टीम से संपर्क कर रहे हैं और जल्द ही आपको अपडेट देंगे।",
+    "intent": "delivery_delay",
+    "language": "hindi"
+  },
+  {
+    "query": "मुझे अभी तक मेरा पार्सल नहीं मिला है। ट्रैकिंग में भी कोई अपडेट नहीं है।",
+    "response": "असुविधा के लिए हमें खेद है। कृपया अपना ऑर्डर आईडी प्रदान करें ताकि हम इसकी जांच कर सकें और आपको सटीक जानकारी दे सकें।",
+    "intent": "delivery_delay",
+    "language": "hindi"
+  },
+  {
+    "query": "क्या मेरा ऑर्डर #7890123 रद्द हो गया है? यह 5 दिन से अटका हुआ है।",
+    "response": "नहीं, आपका ऑर्डर रद्द नहीं हुआ है। डिलीवरी में देरी के लिए हमें खेद है। हम डिलीवरी पार्टनर से संपर्क करके जल्द से जल्द जानकारी प्रदान करेंगे।",
+    "intent": "delivery_delay",
+    "language": "hindi"
+  },
+  {
+    "query": "मैंने 10 दिन पहले एक फोन ऑर्डर किया था। अभी तक नहीं मिला। यह क्या है?",
+    "response": "हमें आपके ऑर्डर में हुई देरी के लिए बहुत खेद है। कृपया हमें ऑर्डर नंबर बताएं ताकि हम प्राथमिकता के आधार पर इसकी स्थिति की जांच कर सकें।",
+    "intent": "delivery_delay",
+    "language": "hindi"
+  },
+  {
+    "query": "My order ID is #SHOPEASE1001. It was supposed to be delivered yesterday but still hasn't arrived. What's the status?",
+    "response": "We apologize for the delay with your order #SHOPEASE1001. We are investigating this with our delivery partner and will provide an update on its status and expected delivery time shortly.",
+    "intent": "delivery_delay",
+    "language": "english"
+  },
+  {
+    "query": "I placed an order for a watch a week ago, and the tracking hasn't updated in 3 days. Is there an issue?",
+    "response": "We're sorry to hear about the delay with your watch order. Please share your order ID so we can look into this immediately and provide you with an accurate update.",
+    "intent": "delivery_delay",
+    "language": "english"
+  },
+  {
+    "query": "Why is my package taking so long? The estimated delivery date was two days ago! Order #SHOP0003.",
+    "response": "We sincerely apologize for the inconvenience caused by the delay of your order #SHOP0003. We are escalating this with the logistics team and will get back to you with more information as soon as possible.",
+    "intent": "delivery_delay",
+    "language": "english"
+  },
+  {
+    "query": "Can you tell me why my delivery is delayed? Order #44556677.",
+    "response": "We regret the delay in the delivery of your order #44556677. We're actively working to resolve this with our delivery partner and will update you with the revised delivery schedule soon.",
+    "intent": "delivery_delay",
+    "language": "english"
+  },
+  {
+    "query": "My order #DELHI567 is stuck at \"Out for Delivery\" for two days now. What's happening?",
+    "response": "We apologize for the unusual delay with your order #DELHI567 being stuck on \"Out for Delivery.\" We are contacting the delivery executive and will provide you with a precise update on its status and delivery time.",
+    "intent": "delivery_delay",
+    "language": "english"
+  },
+  {
+    "query": "Mera order #SHOP007 kaha hai, 5 din ho gaye abhi tak nahi mila.",
+    "response": "Aapke order #SHOP007 mein deri ke liye hume khed hai. Hum iski jaanch kar rahe hain aur jald hi aapko update denge.",
+    "intent": "delivery_delay",
+    "language": "hinglish"
+  },
+  {
+    "query": "My order #EASYPAY123 shows \"delivered\" but I haven't received it. Kya karu?",
+    "response": "Hume yeh sunkar bahut afsos hai. Please confirm the delivery address and provide an alternate contact number. Hum is matter ko turant investigate kar rahe hain.",
+    "intent": "delivery_delay",
+    "language": "hinglish"
+  },
+  {
+    "query": "Mera product kab deliver hoga? Expected date nikal gayi hai. Order ID #SHOPIN009.",
+    "response": "Aapke order #SHOPIN009 mein deri ke liye hum khed vyakt karte hain. Humari team delivery partner ke saath coordinate kar rahi hai aur aapko jald hi naya estimated delivery date batayegi.",
+    "intent": "delivery_delay",
+    "language": "hinglish"
+  },
+  {
+    "query": "Hello, my order #BOOK123 is delayed. What is the reason? It's been 4 days over the expected delivery date.",
+    "response": "Hi, we apologize for the significant delay with your order #BOOK123. We are checking with our logistics team to understand the reason and will share an update with you very soon.",
+    "intent": "delivery_delay",
+    "language": "hinglish"
+  },
+  {
+    "query": "Yaar, mera order #FASTDELIVERY789 abhi tak nahi aaya. Urgent tha! Kuch karo.",
+    "response": "Hume aapki pareshani samajh aa rahi hai. Aapke order #FASTDELIVERY789 mein deri ke liye hume khed hai. Humne isse high priority par mark kiya hai aur aapko jald se jald update denge.",
+    "intent": "delivery_delay",
+    "language": "hinglish"
+  },
+  {
+    "query": "My order #SHOPEASY001 has been stuck at the same city for 2 days now. It says \"In Transit\". Why so slow?",
+    "response": "We understand your concern regarding the delay. We are actively following up with the courier partner about your order #SHOPEASY001 and will inform you once there's a movement update or a revised delivery estimate.",
+    "intent": "delivery_delay",
+    "language": "hinglish"
+  },
+  {
+    "query": "Is the new Samsung Galaxy M55 phone waterproof?",
+    "response": "Hello! The Samsung Galaxy M55 is splash and dust resistant with an IP67 rating, meaning it can withstand immersion in up to 1 meter of fresh water for up to 30 minutes. However, it is not fully waterproof, and we advise against intentional water exposure.",
+    "intent": "product_query",
+    "language": "english"
+  },
+  {
+    "query": "यह हेडफ़ोन कितने घंटे की बैटरी लाइफ देता है?",
+    "response": "नमस्ते! यह हेडफ़ोन एक बार चार्ज करने पर 30 घंटे तक की बैटरी लाइफ प्रदान करता है। चार्जिंग केस के साथ यह कुल 90 घंटे तक चल सकता है।",
+    "intent": "product_query",
+    "language": "hindi"
+  },
+  {
+    "query": "Yeh dress ka material kya hai? Cotton hai ya synthetic blend?",
+    "response": "Hi! Is dress ka material 60% Cotton aur 40% Polyester blend hai, jo ise comfortable aur crease-resistant banata hai. Poori details product description mein mil jaayegi.",
+    "intent": "product_query",
+    "language": "hinglish"
+  },
+  {
+    "query": "What is the return policy for electronic gadgets like smartwatches?",
+    "response": "Hello! Smartwatches and other electronic gadgets have a 7-day return policy from the date of delivery, provided they are in their original, unused condition with all accessories and packaging intact. Please refer to our returns section for full details.",
+    "intent": "product_query",
+    "language": "english"
+  },
+  {
+    "query": "इस स्मार्टवॉच की वारंटी कितने साल की है?",
+    "response": "नमस्ते! इस स्मार्टवॉच पर 1 साल की मैन्युफैक्चरर वारंटी मिलती है। वारंटी से जुड़ी अधिक जानकारी के लिए आप प्रोडक्ट पेज पर 'वारंटी विवरण' सेक्शन देख सकते हैं।",
+    "intent": "product_query",
+    "language": "hindi"
+  },
+  {
+    "query": "Kya yeh laptop expandable RAM support karta hai? Aur kitni max limit hai?",
+    "response": "Haan! Yeh laptop expandable RAM support karta hai. Aap ismein 16GB tak RAM upgrade kar sakte hain, jismein ek slot available hai. Current RAM configuration product page par mention hai.",
+    "intent": "product_query",
+    "language": "hinglish"
+  },
+  {
+    "query": "Is the leather in the wallets genuine or faux leather?",
+    "response": "Hello! All our leather wallets are crafted from 100% genuine top-grain leather. You can find specific material details on each product's description page.",
+    "intent": "product_query",
+    "language": "english"
+  },
+  {
+    "query": "क्या यह टी-शर्ट धोने के बाद सिकुड़ती है?",
+    "response": "नमस्ते! यह टी-शर्ट प्री-श्रंक कॉटन से बनी है, इसलिए सामान्य धुलाई पर इसके सिकुड़ने की संभावना बहुत कम है। कृपया सर्वोत्तम परिणामों के लिए वॉश केयर निर्देशों का पालन करें।",
+    "intent": "product_query",
+    "language": "hindi"
+  },
+  {
+    "query": "Yeh jo fridge hai, kitne star rating ka hai aur power consumption kitna hoga approximate?",
+    "response": "Hi! Yeh fridge 3-star energy rating ke saath aata hai. Iska approximate annual power consumption 250-280 units hai, jo ki model aur usage par depend karta hai. Details product page par mil jaayengi.",
+    "intent": "product_query",
+    "language": "hinglish"
+  },
+  {
+    "query": "Are the ingredients of the protein powder vegetarian?",
+    "response": "Yes, our protein powder is 100% vegetarian. It is derived from plant-based sources and contains no animal products. You can check the complete ingredient list on the product packaging or product description page.",
+    "intent": "product_query",
+    "language": "english"
+  },
+  {
+    "query": "Kya is power bank pe fast charging support hai? Mera phone quick charge 3.0 support karta hai.",
+    "response": "Ji haan! Is power bank mein Quick Charge 3.0 (QC 3.0) aur Power Delivery (PD) dono support hain, toh aapka phone fast charge hoga. Output specifications product details mein check kar sakte hain.",
+    "intent": "product_query",
+    "language": "hinglish"
+  },
+  {
+    "query": "इस कैमरे के साथ कौन-कौन सी एक्सेसरीज़ आती हैं?",
+    "response": "नमस्ते! इस कैमरे के साथ एक लेंस किट (18-55mm), बैटरी, चार्जर, कैमरा स्ट्रैप और एक USB केबल आती है। पूरी एक्सेसरीज़ की सूची प्रोडक्ट डिस्क्रिप्शन में दी गई है।",
+    "intent": "product_query",
+    "language": "hindi"
+  },
+  {
+    "query": "I want to know if the dress material is transparent or opaque. It's for a special occasion.",
+    "response": "Hello! The dress material is designed to be opaque, ensuring full coverage. It's a blend that provides both comfort and modesty. You can also refer to customer reviews for real-world feedback on this aspect.",
+    "intent": "product_query",
+    "language": "english"
+  },
+  {
+    "query": "Yeh earbuds Bluetooth 5.0 support karte hain ya latest version?",
+    "response": "Hi! Yeh earbuds Bluetooth 5.3 support karte hain, jo behtar connectivity, faster pairing aur improved power efficiency deta hai compared to 5.0. Aapko stable connection milega.",
+    "intent": "product_query",
+    "language": "hinglish"
+  },
+  {
+    "query": "क्या यह स्मार्ट टीवी नेटफ्लिक्स और अमेज़न प्राइम वीडियो को सपोर्ट करता है?",
+    "response": "नमस्ते! हाँ, यह स्मार्ट टीवी बिल्ट-इन नेटफ्लिक्स और अमेज़न प्राइम वीडियो ऐप्स के साथ आता है। आप इन ऐप्स को सीधे टीवी पर स्ट्रीम कर सकते हैं।",
+    "intent": "product_query",
+    "language": "hindi"
+  },
+  {
+    "query": "The dress I received is completely different from what I ordered. It's the wrong color and style. This is unacceptable!",
+    "response": "We sincerely apologize for the incorrect item. Please provide your order ID, and we'll arrange for a return and ensure the correct item is dispatched immediately.",
+    "intent": "complaint",
+    "language": "english"
+  },
+  {
+    "query": "मुझे गलत साइज़ का कुर्ता मिला है। मैंने M ऑर्डर किया था, लेकिन S आया है। ये क्या तरीका है?",
+    "response": "असुविधा के लिए हमें खेद है। कृपया अपना ऑर्डर आईडी प्रदान करें ताकि हम आपकी समस्या को जल्द से जल्द हल कर सकें और सही साइज़ का कुर्ता भेज सकें।",
+    "intent": "complaint",
+    "language": "hindi"
+  },
+  {
+    "query": "Mera order abhi tak deliver nahi hua hai. 5 din ho gaye hain, aur tracking bhi stuck hai. Kya ho raha hai ShopEase?",
+    "response": "Aapki asuvidha ke liye hume behad khed hai. Kripya apna order ID dein, hum delivery status check karte hain aur aapko update karte hain.",
+    "intent": "complaint",
+    "language": "hinglish"
+  },
+  {
+    "query": "My recent electronics purchase arrived with a broken seal and some missing accessories. This is completely unacceptable!",
+    "response": "We are very sorry to hear about this serious issue. Could you please share your order ID and photos of the package and its contents? We'll escalate this immediately.",
+    "intent": "complaint",
+    "language": "english"
+  },
+  {
+    "query": "Maine jo phone cover order kiya tha, woh galat model ka aaya hai. Mere phone ko fit nahi ho raha, useless hai!",
+    "response": "Hume afsos hai ki aapko galat item mila. Kripya apna order ID aur sahi phone model bataiye, hum isko jaldi se solve karte hain aur aapke liye correct cover arrange karte hain.",
+    "intent": "complaint",
+    "language": "hinglish"
+  },
+  {
+    "query": "जो किचन अप्लायंस मैंने मंगाया था, वह टूटा हुआ निकला। बिल्कुल घटिया पैकेजिंग थी।",
+    "response": "यह सुनकर हमें बहुत खेद है। कृपया टूटे हुए उत्पाद की तस्वीरें और अपना ऑर्डर आईडी साझा करें। हम तुरंत इस मामले की जांच करेंगे और आवश्यक कार्रवाई करेंगे।",
+    "intent": "complaint",
+    "language": "hindi"
+  },
+  {
+    "query": "I ordered a laptop three weeks ago and it still hasn't arrived. The tracking information hasn't updated in days. This is ridiculous!",
+    "response": "We sincerely apologize for the significant delay and lack of updates. Please provide your order number so we can investigate the delivery status immediately and provide a resolution.",
+    "intent": "complaint",
+    "language": "english"
+  },
+  {
+    "query": "Mera refund abhi tak process nahi hua hai. 7 din ho gaye hain, customer care pe bhi koi help nahi kar raha hai.",
+    "response": "Refund mein deri ke liye hume khed hai. Kripya apna order ID aur transaction details share karein, hum ispar turant action lenge aur aapko update denge.",
+    "intent": "complaint",
+    "language": "hinglish"
+  },
+  {
+    "query": "मेरी डिलीवरी में देरी क्यों हो रही है? ट्रैकिंग अपडेट नहीं हो रहा है और मुझे इसकी आज ही ज़रूरत है।",
+    "response": "हमें खेद है कि आपको इंतज़ार करना पड़ रहा है। कृपया अपना ऑर्डर नंबर बताएं ताकि हम डिलीवरी स्थिति की तुरंत जांच कर सकें और आपको सटीक जानकारी दे सकें।",
+    "intent": "complaint",
+    "language": "hindi"
+  },
+  {
+    "query": "The quality of the bedsheets I bought from ShopEase is very poor. They've faded after just one wash. I want a full refund.",
+    "response": "We regret to hear about the quality issue with the bedsheets. Please share your order ID, and we will guide you through the refund process and investigate this matter.",
+    "intent": "complaint",
+    "language": "english"
+  },
+  {
+    "query": "Mujhe jo watch mili hai woh damaged hai. Box bhi khula hua tha aur scratch bhi hai dial pe.",
+    "response": "Oh no, hume sunkar afsos hua. Kya aap damaged watch ki pics aur apna order ID share kar sakte hain? Hum is issue ko jaldi resolve karenge.",
+    "intent": "complaint",
+    "language": "hinglish"
+  },
+  {
+    "query": "मैंने जो जूते ऑर्डर किए थे, उनकी गुणवत्ता बहुत खराब है। एक हफ्ते में ही सोल निकल गया। मुझे इन्हें वापस करना है।",
+    "response": "आपकी शिकायत दर्ज कर ली गई है। गुणवत्ता में कमी के लिए हमें खेद है। कृपया ऑर्डर आईडी साझा करें। हम जल्द ही वापसी प्रक्रिया शुरू करेंगे और आपको सहायता प्रदान करेंगे।",
+    "intent": "complaint",
+    "language": "hindi"
+  },
+  {
+    "query": "Meri jo grocery delivery aayi hai usme se ek item missing hai. Payment poore ki hui thi. Check karo!",
+    "response": "Missing item ke liye hume khed hai. Kripya apna order ID aur missing item ka naam batayein, hum isko turant rectify karenge aur aapko refund ya replacement denge.",
+    "intent": "complaint",
+    "language": "hinglish"
+  },
+  {
+    "query": "मेरा नया फ़ोन ठीक से काम नहीं कर रहा है। बार-बार बंद हो जाता है और गर्म भी होता है। ये कैसा प्रोडक्ट है?",
+    "response": "हमें यह सुनकर अफ़सोस हुआ कि आपको नए फ़ोन में समस्या आ रही है। क्या आप हमें अपने फ़ोन मॉडल और ऑर्डर आईडी के बारे में बता सकते हैं? हम आपकी सहायता के लिए तकनीकी टीम से संपर्क करेंगे।",
+    "intent": "complaint",
+    "language": "hindi"
+  },
+  {
+    "query": "Maine ek t-shirt order ki thi XL size mein, but mujhe Small mili hai. Yeh kya hai, ShopEase? Do it fast!",
+    "response": "Hum is galti ke liye maafi chahte hain. Kripya apna order ID batayein, hum exchange arrange karwa denge aur sahi size ki t-shirt aap tak pahunchayenge.",
+    "intent": "complaint",
+    "language": "hinglish"
+  },
+  {
+    "query": "Mera account login nahi ho raha hai, password bhool gaya. Please help, urgent!",
+    "response": "Hello! Aapke registered email ID par password reset link bhej diya gaya hai. Kripya apna inbox (aur spam folder bhi) check karein aur naya password set karein.",
+    "intent": "account_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "My ShopEase account has been blocked. Why can't I access it?",
+    "response": "Aapka account temporary block kiya gaya hai security reasons se. Kripya apna registered email ID aur phone number confirm karein, hum check karte hain.",
+    "intent": "account_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "Mujhe ShopEase se confirmation emails nahi mil rahe hain, kya problem hai?",
+    "response": "Hum check kar rahe hain. Kripya confirm karein ki aapka email ID [customer_email] sahi hai aur spam folder bhi check kar lein. Agar phir bhi na mile toh humara support team aapse contact karega.",
+    "intent": "account_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "Mera address update karna hai account mein, kaise karoon? Bahut zaroori hai.",
+    "response": "Aap apne 'My Account' section mein jaakar 'Addresses' par click karke apna address update kar sakte hain. Agar koi dikkat aaye toh batayein, hum madad karenge.",
+    "intent": "account_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "I want to delete my ShopEase account permanently. Guide me.",
+    "response": "Account deletion request submit kar diya gaya hai. Is process mein kuch din lag sakte hain. Kya hum jaan sakte hain deletion ka reason, agar aap share karna chahein?",
+    "intent": "account_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "ShopEase app mein login karne mein error aa raha hai 'invalid credentials' baar baar.",
+    "response": "Kripya apna username (email/phone number) aur password dobara dhyan se check karein. Agar phir bhi error aaye toh password reset karne ki koshish karein.",
+    "intent": "account_issue",
+    "language": "hinglish"
+  },
+  {
+    "query": "मेरे शॉपईज खाते में मेरा नाम गलत है, कृपया इसे तुरंत ठीक करें।",
+    "response": "निश्चित रूप से! कृपया अपना सही नाम और पंजीकृत ईमेल आईडी बताएं ताकि हम इसे आपके खाते में अपडेट कर सकें।",
+    "intent": "account_issue",
+    "language": "hindi"
+  },
+  {
+    "query": "मैं अपने खाते का पासवर्ड बदलना चाहता हूँ, क्या प्रक्रिया है?",
+    "response": "आप 'मेरा खाता' अनुभाग में जाकर 'पासवर्ड बदलें' विकल्प चुन सकते हैं। आपको वर्तमान पासवर्ड और नया पासवर्ड दर्ज करना होगा।",
+    "intent": "account_issue",
+    "language": "hindi"
+  },
+  {
+    "query": "मेरे खाते से अचानक लॉगआउट क्यों हो गया? मैं अभी इस्तेमाल कर रहा था।",
+    "response": "यह सुरक्षा कारणों से हो सकता है। कृपया फिर से लॉग इन करने का प्रयास करें। यदि समस्या बनी रहती है, तो कृपया हमसे संपर्क करें।",
+    "intent": "account_issue",
+    "language": "hindi"
+  },
+  {
+    "query": "क्या मैं अपने शॉपईज खाते में एक से अधिक ईमेल आईडी जोड़ सकता हूँ? मुझे दूसरा ईमेल जोड़ना है।",
+    "response": "नहीं, एक खाते के लिए केवल एक प्राथमिक ईमेल आईडी पंजीकृत की जा सकती है। आप इसे 'प्रोफ़ाइल जानकारी' अनुभाग में जाकर अपडेट कर सकते हैं।",
+    "intent": "account_issue",
+    "language": "hindi"
+  },
+  {
+    "query": "मैंने अपना फ़ोन नंबर अपडेट किया है, इसे खाते में कैसे बदलूं?",
+    "response": "आप अपने 'मेरा खाता' अनुभाग में 'प्रोफ़ाइल जानकारी' में जाकर अपना नया फ़ोन नंबर अपडेट कर सकते हैं। यदि कोई समस्या हो तो बताएं।",
+    "intent": "account_issue",
+    "language": "hindi"
+  },
+  {
+    "query": "I can't access my ShopEase account. It keeps saying my email isn't registered, but I know it is.",
+    "response": "Please double-check the email ID you're using. It's possible you registered with a slightly different email or accidentally misspelled it. If the issue persists, please provide any other registered details.",
+    "intent": "account_issue",
+    "language": "english"
+  },
+  {
+    "query": "My saved payment methods disappeared from my account overnight. What happened?",
+    "response": "For security reasons, saved payment methods might occasionally be removed. Please try adding them again when you make your next purchase. We apologize for the inconvenience.",
+    "intent": "account_issue",
+    "language": "english"
+  },
+  {
+    "query": "How do I change my profile picture on my ShopEase account? I can't find the option.",
+    "response": "Currently, ShopEase does not support profile pictures. You can manage other profile details like your name, email, and contact number in the 'My Account' section.",
+    "intent": "account_issue",
+    "language": "english"
+  },
+  {
+    "query": "I received an email about unusual activity on my ShopEase account, asking me to click a link. Is this legitimate?",
+    "response": "Thank you for bringing this to our attention. Please do NOT click any suspicious links. Kindly forward the email to security@shopease.com so we can investigate its legitimacy and ensure your account's security.",
+    "intent": "account_issue",
+    "language": "english"
+  },
+  {
+    "query": "Mujhe koi discount coupon mil sakta hai kya mere next purchase pe?",
+    "response": "Hello! Apne next purchase par discount coupons ke liye, please ShopEase app par 'Offers' section check karein ya apne registered email/SMS dekhein. Hum regularly naye offers bhejte rehte hain!",
+    "intent": "coupon_discount",
+    "language": "hinglish"
+  },
+  {
+    "query": "My coupon code 'SAVE200' is not working. Kya hua hai?",
+    "response": "Sorry for the inconvenience! Please confirm if the coupon is valid for your current cart items and if the minimum purchase value is met. Also, check its expiry date. Agar phir bhi issue hai, toh order details share karein.",
+    "intent": "coupon_discount",
+    "language": "hinglish"
+  },
+  {
+    "query": "New user offer hai koi? First order pe discount chahiye.",
+    "response": "Ji bilkul! Naye users ke liye special offers hote hain. Jab aap checkout karenge, automatically apply ho jayega ya aapko prompt kiya jayega. Aap 'Offers' section bhi check kar sakte hain.",
+    "intent": "coupon_discount",
+    "language": "hinglish"
+  },
+  {
+    "query": "I forgot to apply coupon. Can you add it now? Order ID #SE12345678",
+    "response": "Unfortunately, ek baar order place hone ke baad hum coupon apply nahi kar sakte. Aap future orders mein iska upyog kar sakte hain. Agli baar dhyan rakhiyega!",
+    "intent": "coupon_discount",
+    "language": "hinglish"
+  },
+  {
+    "query": "Why are my coupons always expired? Koi naya promo code do na.",
+    "response": "Hum samajh sakte hain aapki pareshani. Coupons ki validity limited hoti hai. Aap ShopEase app ke 'Offers' tab mein jaakar latest aur active coupons check kar sakte hain.",
+    "intent": "coupon_discount",
+    "language": "hinglish"
+  },
+  {
+    "query": "Mere account mein koi valid discount code nahi dikh raha. Help!",
+    "response": "Apne account mein valid discount codes dekhne ke liye, ShopEase app mein 'My Account' ke under 'Coupons' section check karein. Agar phir bhi koi issue hai, toh batayein.",
+    "intent": "coupon_discount",
+    "language": "hinglish"
+  },
+  {
+    "query": "Kya ShopEase sale chal rahi hai? Mujhe kuch discounts chahiye.",
+    "response": "Haan ji! ShopEase par aksar sales chalti rehti hain. Latest sales aur discounts ke liye, hamare homepage, 'Offers' section aur social media channels check karte rahein.",
+    "intent": "coupon_discount",
+    "language": "hinglish"
+  },
+  {
+    "query": "मुझे अपने अगले ऑर्डर पर कोई छूट कूपन चाहिए। क्या उपलब्ध है?",
+    "response": "नमस्ते! आपके अगले ऑर्डर पर उपलब्ध छूट कूपन जानने के लिए, कृपया शॉपईज़ ऐप के 'ऑफ़र' अनुभाग देखें या अपने पंजीकृत ईमेल/एसएमएस की जांच करें।",
+    "intent": "coupon_discount",
+    "language": "hindi"
+  },
+  {
+    "query": "मैंने एक कूपन कोड लगाया था लेकिन वह काम नहीं कर रहा। सहायता करें।",
+    "response": "असुविधा के लिए खेद है। कृपया सुनिश्चित करें कि कूपन आपके कार्ट आइटम के लिए मान्य है, न्यूनतम खरीद मूल्य पूरा हो गया है, और इसकी समाप्ति तिथि नहीं निकली है। यदि समस्या बनी रहती है, तो कृपया ऑर्डर विवरण साझा करें।",
+    "intent": "coupon_discount",
+    "language": "hindi"
+  },
+  {
+    "query": "क्या मेरे पास कोई व्यक्तिगत कूपन है जिसका मैं उपयोग कर सकता हूँ?",
+    "response": "अपने व्यक्तिगत कूपन देखने के लिए, कृपया शॉपईज़ ऐप में 'माई अकाउंट' सेक्शन के अंतर्गत 'माई कूपन्स' पर जाएं। वहां आपको सभी उपलब्ध कूपन मिल जाएंगे।",
+    "intent": "coupon_discount",
+    "language": "hindi"
+  },
+  {
+    "query": "भुगतान करते समय कूपन कैसे लागू करें?",
+    "response": "भुगतान करते समय, 'कूपन लागू करें' या 'प्रमोशनल कोड' विकल्प पर क्लिक करें और अपना कूपन कोड दर्ज करें। सुनिश्चित करें कि यह आपके ऑर्डर के लिए मान्य है।",
+    "intent": "coupon_discount",
+    "language": "hindi"
+  },
+  {
+    "query": "I have a coupon code that isn't applying at checkout. What should I do?",
+    "response": "Please ensure the coupon code is valid for the items in your cart, meets the minimum purchase requirement, and has not expired. If the issue persists, kindly provide the coupon code and your order details for us to investigate.",
+    "intent": "coupon_discount",
+    "language": "english"
+  },
+  {
+    "query": "Are there any ongoing promotions or discount codes available for new customers?",
+    "response": "Yes, we frequently have special promotions for new customers. Please check the 'Offers' section on the ShopEase app or website, or look out for a prompt at checkout to apply available new user discounts.",
+    "intent": "coupon_discount",
+    "language": "english"
+  },
+  {
+    "query": "Can I get a discount if I buy multiple items from the same seller?",
+    "response": "Discounts for multiple items from the same seller depend on specific ongoing promotions. Please check the product page for bundle offers or the 'Offers' section for general discounts that might apply.",
+    "intent": "coupon_discount",
+    "language": "english"
+  },
+  {
+    "query": "My discount coupon shows it's only for a specific category. Can it be used universally?",
+    "response": "Unfortunately, discount coupons are often category-specific as per their terms and conditions. They cannot be used universally unless explicitly stated. Please refer to the coupon's details for its applicability.",
+    "intent": "coupon_discount",
+    "language": "english"
+  },
+  {
+    "query": "Mera refund abhi tak nahi aaya hai. Kitna time lagega? Ek senior se baat karni hai.",
+    "response": "Hamein dukh hai ki aapko intzaar karna pad raha hai. Main aapki request ko senior agent ko forward kar raha hoon. Kripya thoda intezaar karein.",
+    "intent": "escalation_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "I've been trying to resolve this issue for days. I demand to speak to a supervisor immediately.",
+    "response": "I understand your frustration. I am escalating your request to a supervisor right away. Please hold while I connect you.",
+    "intent": "escalation_request",
+    "language": "english"
+  },
+  {
+    "query": "मुझे अपने ऑर्डर #SHP6789 की डिलीवरी के संबंध में एक वरिष्ठ अधिकारी से बात करनी है। यह बहुत महत्वपूर्ण है।",
+    "response": "हम आपकी बात समझ रहे हैं। मैं तुरंत आपके मामले को एक वरिष्ठ अधिकारी के पास भेज रहा हूँ ताकि वे आपकी बेहतर सहायता कर सकें।",
+    "intent": "escalation_request",
+    "language": "hindi"
+  },
+  {
+    "query": "My order #12345 delayed by 1 week. Koi help nahi kar raha. Can I talk to manager?",
+    "response": "Aapki pareshani samajh sakte hain. Main turant aapki call ek senior executive ko transfer kar raha hoon jo aapki behtar madad kar sakte hain.",
+    "intent": "escalation_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "My previous complaints have gone unresolved. I need to talk to someone who can actually make a decision, not just repeat policies. Can I speak to a manager?",
+    "response": "I apologize for the inconvenience you've experienced. I am transferring your call to a senior representative who can provide further assistance and address your concerns.",
+    "intent": "escalation_request",
+    "language": "english"
+  },
+  {
+    "query": "मेरी शिकायत पर कोई कार्रवाई नहीं हुई है। कृपया मुझे किसी उच्च अधिकारी से संपर्क करवाएँ।",
+    "response": "हमें खेद है कि आपको ऐसी असुविधा हुई। मैं आपकी शिकायत को तुरंत हमारे वरिष्ठ टीम को भेज रहा हूँ जो इस मामले को प्राथमिकता से देखेंगे।",
+    "intent": "escalation_request",
+    "language": "hindi"
+  },
+  {
+    "query": "Iss issue ko resolve karne mein bahut time lag raha hai. Mujhe ek higher authority se baat karni hai.",
+    "response": "Hum aapki frustration samajh sakte hain. Main aapke case ko turant ek specialized team ya senior agent ke paas escalate kar raha hoon. Ve jald hi aapse contact karenge.",
+    "intent": "escalation_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "This is the third time I'm contacting support for the same problem. I insist on speaking with a higher-level support agent.",
+    "response": "I understand your need to speak with a higher authority. I am initiating an escalation and will connect you with a senior agent shortly.",
+    "intent": "escalation_request",
+    "language": "english"
+  },
+  {
+    "query": "उत्पाद की गुणवत्ता को लेकर मुझे गंभीर चिंताएं हैं। क्या मैं किसी मैनेजर से बात कर सकता हूँ?",
+    "response": "हम आपकी चिंताओं को समझते हैं। मैं आपको एक वरिष्ठ प्रतिनिधि से जोड़ रहा हूँ जो इस मामले को गंभीरता से लेंगे और आपकी सहायता करेंगे।",
+    "intent": "escalation_request",
+    "language": "hindi"
+  },
+  {
+    "query": "Product damage mila hai, replacement request bhi pending hai. Kya koi senior officer baat kar sakte hain?",
+    "response": "Is asuvidha ke liye hum khed hain. Main aapki request ko ek senior agent ko bhej raha hoon jo is mamle ko tezi se suljhaane mein aapki madad karenge.",
+    "intent": "escalation_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "My refund for order #SHPE12345 has been delayed excessively. I need to escalate this to a higher department.",
+    "response": "I apologize for the refund delay. I am now escalating your case to our specialized refund team for urgent review and resolution.",
+    "intent": "escalation_request",
+    "language": "english"
+  },
+  {
+    "query": "मेरे खाते में अनधिकृत लेनदेन हुए हैं। मुझे तुरंत किसी उच्च अधिकारी से बात करनी है।",
+    "response": "यह एक गंभीर मामला है। मैं तुरंत आपकी कॉल को हमारी विशेष सुरक्षा टीम के वरिष्ठ अधिकारी को स्थानांतरित कर रहा हूँ।",
+    "intent": "escalation_request",
+    "language": "hindi"
+  },
+  {
+    "query": "Mera account block ho gaya hai bina reason. Urgent hai, kisi senior se connect karwao.",
+    "response": "Hum aapki urgency samajhte hain. Main turant aapki request ko hamare senior support team ko forward kar raha hoon jo is mamle ko priority par dekhenge.",
+    "intent": "escalation_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "I need to speak to someone higher up about my multiple failed delivery attempts for order #SHOP789. This is unacceptable.",
+    "response": "Aapki pareshani ke liye hum khed hain. Main aapke issue ko turant ek senior agent ko escalate kar raha hoon jo aapki samasya ka samadhan karenge.",
+    "intent": "escalation_request",
+    "language": "hinglish"
+  },
+  {
+    "query": "मुझे इस समस्या का स्थायी समाधान चाहिए। क्या आप मुझे किसी वरिष्ठ सहायता अधिकारी से जोड़ सकते हैं?",
+    "response": "हम आपकी समस्या का स्थायी समाधान सुनिश्चित करेंगे। मैं आपकी इस अनुरोध को हमारे वरिष्ठ सहायता अधिकारी के पास भेज रहा हूँ।",
+    "intent": "escalation_request",
+    "language": "hindi"
+  }
+]
