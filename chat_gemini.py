@@ -66,7 +66,7 @@ def generate_response(user_query, chat_history=None):
                 "parts": [{"text": f"{SYSTEM_PROMPT}\n\n--- CONTEXT ---\n{context}"}]
             },
             "contents": contents,
-            "generationConfig": {"maxOutputTokens": 500, "temperature": 0.4},
+            "generationConfig": {"maxOutputTokens": 10000, "temperature": 0.4},
         },
     )
 
